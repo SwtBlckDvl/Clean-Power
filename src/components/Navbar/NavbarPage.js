@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./NavbarPage.css";
+
 export const NavbarPage = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className="section">
+      <nav className="navbar navbar-expand-lg navbar-dark ">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             Clean Power
@@ -28,17 +30,19 @@ export const NavbarPage = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
+                <a className="nav-link active" href="#">
+                  About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
+                <a className="nav-link active" href="#">
+                  Team
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <a className="nav-link active" href="#">
+                  Faq
+                </a>
               </li>
             </ul>
           </div>
