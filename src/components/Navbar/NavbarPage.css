@@ -1,4 +1,26 @@
 .section {
   width: 100vw;
-  background-color: #5aab61;
+  background-color: #93b504;
+}
+
+.navBarU {
+  width: 100vw;
+  text-align: center;
+}
+
+.buttonContactU {
+  color: #fff;
+  border-radius: 5%;
+  padding: 0 0.6rem 0.2rem 0.5rem;
+  background-color: transparent;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.buttonContactU:hover {
+  color: #93b504;
+  border-radius: 5%;
+  background-color: #fff;
+  border-style: solid;
+  transition: 0.45s;
 }

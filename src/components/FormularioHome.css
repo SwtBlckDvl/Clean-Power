@@ -1,0 +1,37 @@
+.FormContainerU {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  backdrop-filter: blur(12px);
+  color: #fff;
+}
+
+.contactU {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.txtAreaU {
+  width: 100%;
+  height: 6rem;
+}
+
+.contactBtnU {
+  text-align: center;
+  padding: 1rem;
+}
+
+.BtnU {
+  background-color: #93b504;
+  padding: 0.5rem;
+  border-radius: 5%;
+  width: 45%;
+  border-radius: 10px;
+  border-color: #fff;
+  border-style: solid;
+  color: #fff;
+  font-weight: bold;
+}
