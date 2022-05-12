@@ -5,44 +5,55 @@ import "./FormularioHome.css";
 export const FormularioHome = () => {
   return (
     <div className="container FormContainerU">
-      <h2 className="contactU">Contáctanos</h2>
+      <h2
+        className="contactU"
+        style={{
+          letterSpacing: "0.4rem",
+        }}
+      >
+        Contáctanos
+      </h2>
       <div id="nombre-apellido" className="row">
-        <div className="col">
-          <label>Nombre</label>
+        <div className="col-md">
+          <label style={{ padding: "0.2rem" }}>Nombre</label>
           <br />
           <input
+            className="inputU"
             style={{ width: "100%", height: "2.5rem" }}
             type="text"
           ></input>
         </div>
-        <div className="col">
-          <label>Apellido</label>
+        <div className="col-md">
+          <label style={{ padding: "0.2rem" }}>Apellido</label>
           <br />
           <input
+            className="inputU"
             style={{ width: "100%", height: "2.5rem" }}
             type="text"
           ></input>
         </div>
       </div>
       <div id="mail-num" className="row">
-        <div className="col">
-          <label>E-mail</label>
+        <div className="col-md">
+          <label style={{ padding: "0.2rem" }}>E-mail</label>
           <br />
           <input
+            className="inputU"
             style={{ width: "100%", height: "2.5rem" }}
             type="mail"
           ></input>
         </div>
         <div className="col">
-          <label>Teléfono </label>
+          <label style={{ padding: "0.2rem" }}>Teléfono </label>
           <br />
           <input
+            className="inputU"
             style={{ width: "100%", height: "2.5rem" }}
             type="text"
           ></input>
         </div>
       </div>
-      <div className="row">
+      <div>
         <div style={{ paddingTop: "1rem" }}>
           <label>¿Cómo podemos ayudarte? </label>
           <br />

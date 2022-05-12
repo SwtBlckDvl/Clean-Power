@@ -1,11 +1,12 @@
 .FormContainerU {
   background-color: rgba(255, 255, 255, 0.1);
-  width: 90%;
+  backdrop-filter: blur(8.5px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  color: #fff;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  backdrop-filter: blur(12px);
-  color: #fff;
+  width: 90%;
 }
 
 .contactU {
@@ -14,14 +15,45 @@
   font-weight: bold;
 }
 
+.inputU {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 1rem;
+  border: none;
+  color: #ffff;
+  outline: none;
+}
+
+.inputU:focus {
+  display: inline-block;
+  box-shadow: 0 0 0 0.2rem #93b504;
+  backdrop-filter: blur(12rem);
+  border-radius: 1rem;
+}
+
 .txtAreaU {
-  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 0.5rem;
+  border: none;
+  color: #ffff;
+  outline: none;
   height: 6rem;
+  width: 100%;
+  resize: none;
+}
+
+.txtAreaU:focus {
+  display: inline-block;
+  box-shadow: 0 0 0 0.2rem #93b504;
+  backdrop-filter: blur(12rem);
+  border-radius: 0.5rem;
 }
 
 .contactBtnU {
   text-align: center;
   padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 .BtnU {
@@ -33,5 +65,4 @@
   border-color: #fff;
   border-style: solid;
   color: #fff;
-  font-weight: bold;
 }
