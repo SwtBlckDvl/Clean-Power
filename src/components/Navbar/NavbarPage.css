@@ -1,6 +1,6 @@
 .section {
   width: 100vw;
-  background-color: #93b504;
+  background-color: #00254d;
 }
 
 .navBarU {
@@ -18,9 +18,20 @@
 }
 
 .buttonContactU:hover {
-  color: #93b504;
+  color: #00254d;
   border-radius: 5%;
   background-color: #fff;
   border-style: solid;
   transition: 0.45s;
 }
+
+h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+/* === responsive css === */
