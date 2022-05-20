@@ -45,8 +45,8 @@ export const NavbarPage = () => {
               <NavLink to="/About">
                 <h5 className="nav-link">About</h5>
               </NavLink>
-              <NavLink to="/Team">
-                <h5 className="nav-link">Team</h5>
+              <NavLink to="/Servicios">
+                <h5 className="nav-link">Servicios</h5>
               </NavLink>
               <NavLink to="/Faq">
                 <h5 className="nav-link">Faq</h5>

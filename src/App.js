@@ -1,12 +1,11 @@
 // import { Navegation } from "./components/Navegation";
-import { About } from "./components/sections/About";
 import { Home } from "./components/sections/Home";
-import { Team } from "./components/sections/Team";
+import { About } from "./components/sections/About";
+import { Services } from "./components/sections/Services";
 import { Faq } from "./components/sections/Faq";
 import { Footer } from "./components/Footer";
 import { NavbarPage } from "./components/Navbar/NavbarPage";
 
-import "./App.css";
 import "./styles/GlobalStyle.css";
 
 function App() {
@@ -14,10 +13,9 @@ function App() {
     <>
       <div id="Theme">
         <NavbarPage />
-        {/* <Navegation /> */}
         <Home />
         <About />
-        <Team />
+        <Services />
         <Faq />
         <Footer />
       </div>
