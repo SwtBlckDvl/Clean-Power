@@ -1,6 +1,6 @@
 import React from "react";
 
-import Elec4 from "../../assets/Elec4.jpg";
+// import Elec4 from "../../assets/Elec4.jpg";
 
 export const About = () => {
   return (
@@ -9,7 +9,7 @@ export const About = () => {
         <div className="row">
           <div className="col-lg-4 col-md-12 col-12">
             <div className="about-img" style={{ padding: "3rem 0 4rem 0" }}>
-              <img src={Elec4} alt="" className="img-fluid" />
+              <img src="" alt="" className="img-fluid" />
             </div>
           </div>
           <div className="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
